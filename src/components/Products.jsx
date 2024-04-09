@@ -1,6 +1,25 @@
 import React, { useState } from "react";
 import Product from "./Product";
 import { motion } from "framer-motion";
+import arqitel from '/videos/1.Arqitel.mp4';
+import Cula from '/videos/2. Cula.mp4';
+import Layout from '/videos/3. Layout Land.mp4';
+import TTR from '/videos/4. TTR.mp4';
+import Maniv from '/videos/5. Maniv.mp4';
+import YIR from '/videos/6. YIR.mp4';
+import yahoo from '/videos/7. yahoo.mp4';
+import rainfall from '/videos/8. rainfall.mp4';
+import jungle from '/videos/9. jungle.mp4';
+import Silvr from '/videos/10. Silvr.mp4';
+import remind from '/videos/11. remind.mp4';
+import summon from '/videos/12. summon.mp4';
+import weglotlikemagic from '/videos/13. weglotlikemagic.mp4';
+import rocketchat from '/videos/14. rocketchat.mp4';
+import yearinreview from '/videos/15. yearinreview.mp4';
+import weglot from '/videos/16. weglot.mp4';
+import Candid from '/videos/17. Candid Health.mp4';
+import showcase from '/videos/18. showcase.mp4';
+
 
 function Products() {
   var products = [
@@ -155,128 +174,92 @@ function Products() {
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
               className="w-full h-full"
-            >
-            <video autoPlay loop muted src="/video/1. Arqitel project video 4_3.webm"></video>
-            </motion.div>
+            ><video autoPlay loop muted src={arqitel}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-green-200"
-            >
-              <video autoPlay loop muted src="/video/2. Cula_promo_new_4_3.mp4"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={Cula}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-purple-200"
-            >
-              <video autoPlay loop muted src="/video/3. Layout Land.mp4"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={Layout}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-teal-200"
-            >
-              <video autoPlay loop muted src="/video/4. TTR project video 4_3_H.264.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={TTR}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-yellow-200"
-            >
-              <video autoPlay loop muted src="/video/5. Maniv-Compressed.mp4"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={Maniv}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-violet-200"
-            >
-              <video autoPlay loop muted src="/video/6. YIR website 2022 4_3_VP9.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={YIR}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-red-400"
-            >
-              <video autoPlay loop muted src="/video/7. yahoo.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={yahoo}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-green-400"
-            >
-              <video autoPlay loop muted src="/video/8. rainfall.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={rainfall}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-blue-400"
-            >
-              <video autoPlay loop muted src="/video/9. jungle-4-3-.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={jungle}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-violet-400"
-            >
-              <video autoPlay loop muted src="/video/10. Silvr.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={Silvr}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-yellow-400"
-            >
-              <video autoPlay loop muted src="/video/11. remind.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={remind}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-amber-400"
-            >
-              <video autoPlay loop muted src="/video/12. summon.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={summon}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-emerald-400"
-            >
-              <video autoPlay loop muted src="/video/13. weglotlikemagic.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={weglotlikemagic}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-cyan-400"
-            >
-              <video autoPlay loop muted src="/video/14. rocketchat.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={rocketchat}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-indigo-400"
-            >
-              <video autoPlay loop muted src="/video/15. yearinreview.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={yearinreview}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-purple-600"
-            >
-              <video autoPlay loop muted src="/video/16. weglot.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={weglot}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-amber-600"
-            >
-              <video autoPlay loop muted src="/video/17. Candid Health 4_3_H.264.webm"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={Candid}></video></motion.div>
             <motion.div
               animate={{ y: -pos + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full bg-red-600"
-            >
-              <video autoPlay loop muted src="/video/18. showcase_4_3.mp4"></video>
-            </motion.div>
+              className="w-full h-full"
+            ><video autoPlay loop muted src={showcase}></video></motion.div>
           </motion.div>
         </div>
       </div>

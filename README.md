@@ -38,6 +38,6 @@ Explore the Refokus Clone live: [Refokus Clone Live](https://shivamubale.github.
 
 ## Website's Screenshot
 
-[Screenshot 2024-04-15 161102.png]
+[]
 
 Feel free to explore the repository and see the Refokus Clone in action! Your feedback and contributions are highly appreciated. Let's refine the browsing experience together. 🚀
